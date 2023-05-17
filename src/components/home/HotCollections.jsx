@@ -17,7 +17,6 @@ const HotCollections = () => {
       );
       setHotCollections(data);
       setIsLoading(false);
-      console.log(data);
     })();
   }, []);
   return (
