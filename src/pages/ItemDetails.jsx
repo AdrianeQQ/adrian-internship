@@ -17,7 +17,6 @@ const ItemDetails = () => {
       );
       setNft(data);
       setIsLoading(false);
-      console.log(data);
     })();
   }, [nftId]);
   return (
